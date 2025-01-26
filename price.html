@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses</title>
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <style>
+        /* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Section styles */
+section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section .enroll-btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section .enroll-btn:hover {
+    background-color: #555;
+
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+    section p, section .enroll-btn {
+        font-size: 1em;
+    }
+}
+
+section,  .enroll-btn, a {
+    text-decoration: none;
+}
+
+ </style>
+
+    <header>
+        <div class="container">
+            <h1>Our Courses</h1>
+            <nav>
+                <ul>
+                    <li><a href="#web-development" >Web Development</a></li>
+                    <li><a href="#graphic-design" >Graphic Design</a></li>
+                    <li><a href="#digital-marketing" >Digital Marketing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="web-development">
+        <div class="container">
+            <h2>Web Development</h2>
+            <p>Learn how to build dynamic websites and web applications from scratch. Master HTML, CSS, JavaScript, and other essential web technologies.</p>
+            <p><strong>Price:</strong> $199</p>
+           <a href="enrol1.html"> <button class="enroll-btn">Enroll Now</button></a>
+        </div>
+    </section>
+
+    <section id="graphic-design">
+        <div class="container">
+            <h2>Graphic Design</h2>
+            <p>Explore the world of visual creativity. Learn design principles, typography, branding, and how to use design tools like Photoshop and Illustrator.</p>
+            <p><strong>Price:</strong> $149</p>
+            <a href="enrol.html"><button class="enroll-btn">Enroll Now</button></a>
+        </div>
+    </section>
+
+    <section id="digital-marketing">
+        <div class="container">
+            <h2>Digital Marketing</h2>
+            <p>Gain skills in SEO, content marketing, social media marketing, and paid advertising. Learn how to reach and engage customers online.</p>
+            <p><strong>Price:</strong> $129</p>
+            <a href="enrol2.html"><button class="enroll-btn">Enroll Now</button></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Courses Platform</p>
+        </div>
+    </footer>
+
+</body>
+</html>

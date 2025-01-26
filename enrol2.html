@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Marketing Course Enrollment</title>
+    <link rel="stylesheet" href="enrollment.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Enroll for Digital marketing Course</h1>
+        </div>
+    </header>
+
+    <section class="enrollment-form">
+        <div class="container">
+            <h2>Enrollment Form</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Why do you want to take this course?</label>
+                    <textarea id="message" name="message" required placeholder="Share your reason for enrolling"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Enrollment</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Web Development Course. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

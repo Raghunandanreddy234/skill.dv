@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    box-shadow:2px 4px;
+    padding: 50px 20px;
+}
+
+.feature-card {
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-us{
+    height:50px;
+    width:6px;
+    display:inline;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.follows{
+    height: 40px;
+    width:8px;
+    opacity:0.7px;  
+}
+
+.follows:hover{
+    opacity:1rem;
+}
+
+
+.container-img{
+    margin-right: 40px;
+}
+
+ .navbar-brand{
+    font-size: 50px;
+}
